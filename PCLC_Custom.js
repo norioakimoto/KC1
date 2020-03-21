@@ -6,13 +6,11 @@
 
 // ------------------------------------------------------------
 // div要素生成
-{    var div0 = document.createElement('div');// div要素を生成
+    var div0 = document.createElement('div');// div要素を生成
         div0.className = 'pclc-header-0';// classを追加
      var div1 = document.createElement('div');// div要素を生成
         div1.className = 'pclc-header-root';// classを追加
-     var div2 = document.createElement('div');// div要素を生成
-        div2.className = 'pclc-header-contents';// classを追加
-}
+
 
 
     var img = document.createElement('img');// img要素を生成
@@ -48,6 +46,10 @@ function ElementSetTextContent(element,str){
 		element.innerText = str;
 	}
 }
+	    
+     var div2 = document.createElement('div');// div要素を生成
+        div2.className = 'pclc-header-contents';// classを追加
+
 // ------------------------------------------------------------
 // 各div要素をappend
 {div0.appendChild(div1)// pclc-header-0 < pclc-header-root
