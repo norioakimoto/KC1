@@ -1,0 +1,109 @@
+/*////////////////////////////////////(ORG)class*/
+.boxtopcss{
+padding-top:50px;
+}
+.header-menu-pics {
+width:24px;
+height:24px;
+}
+
+.HEADER-anchor-txt {
+padding: 0px 12px 0px 0px;
+color:whitesmoke;
+font-family:BatangChe;
+font-size:1.6em;
+font-weight:bold;
+text-decoration:none;
+vertical-align:super;
+}
+
+.tdJ a {
+color:#FEB;
+font-weight: bold;
+}
+.tdJ a:hover {
+color:#F4D;
+font-weight: bold;
+text-decoration:underline;
+}
+
+.tdJ{
+border: 1px #FFFFFF solid;
+border-collapse: collapse;
+padding: 0px 6px 0px 12px;
+text-align: center;
+font-weight: bold;
+font-size: 0.5em;
+color: #ffddff;
+letter-spacing: 0.2em;
+}
+
+.MinD1{
+padding: 8px 34px 10px 10px;
+}
+.MinD3{
+padding: 0px 0px 0px 20px;
+}
+
+/*////////////////////////////////////////////(Kinton)class*/
+.box-gaia {
+padding-top: 0px;
+}
+.contents-actionmenu-gaia{
+height:96px;
+}
+.gaia-argoui-app-filterbutton{
+margin: 0px 0px 0px 0px;
+}
+.gaia-argoui-app-viewtoggle{
+margin: 0px 0px 0px 0px;
+}
+.gaia-argoui-app-subtotalbutton{
+margin: 0px 0px 0px 0px;
+}
+.kintone-app-headermenu-space{
+padding: 0px 0px 0px 0px;
+margin: 0px 0px 0px 0px;
+}
+/*////////////////////////////////////////(RecordList)class*/
+.gaia-argoui-app-toolbar {
+padding: 0px 8px 0px 0px;
+}
+.recordlist-header-cell-gaia {
+padding: 2px 4px;
+}
+.recordlist-cell-gaia>div {
+padding: 4px 6px;
+}
+.recordlist-show-gaia {
+padding: 2px;
+}
+
+/*非表示系*****************************************************************/
+/*ヘッダのkintoneメニュー部非表示*/
+.gaia-header-toolbar-left {
+width:0px;
+display:none;
+}
+.gaia-header-toolbar-right {
+width:0px;
+display:none;
+}
+/*ヘッダのコメント部非表示*/
+.gaia-argoui-app-index-breadcrumb {
+width:0px;
+display:none;
+}
+/*既定のアプリヘッダーアイコン非表示*/
+.gaia-argoui-app-titlebar-icon {
+width:0px;
+display:none;
+}
+/*既定のアプリヘッダーリンク非表示*/
+.gaia-argoui-app-titlebar-content {
+width:0px;
+display:none;
+}
+
+
+
